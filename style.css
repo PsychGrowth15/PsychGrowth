@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background: url(./backgroud.png);
+    height: 335px;
+    background-size: contain;
+    background-repeat: round;
+}
+
+h1,
+h2 {
+    color: #004d40;
+    height: 50px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #555;
+    width: 100%;
+}
+
+.log {
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.menu {
+    text-align: end;
+    padding-top: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #216e79;
+    font-size: larger;
+    font-weight: 700;
+    padding-right: 15px;
+}
+
+.body-first {
+    margin-top: 25px;
+}
+
+.title-content {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tmp {
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.tmp:hover{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tmp a {
+    color: #616161;
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    header {
+        background-repeat: no-repeat;
+        height: 100px;
+    }
+    .dd {
+        text-align: center;
+    }
+    .md{
+        padding: 15px;
+    }
+    .md .tmp{
+        margin-top: 5px;
+    }
+
+     .bg-part {
+    /* width: 100%; */
+    height: 1720px;
+    background-image: url(/HOME.png);
+    background-position: 79px -344px;
+    /* background-size: 500px; */
+    background-repeat: no-repeat;
+}
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  .about-us {
+    height: 437px;
+    background-image: url(/ABOUT\ US.png);
+    background-position: -51px -344px;
+    background-repeat: no-repeat;
+}
+.grp {
+    max-width: 70% !important;
+}
+
+body {
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background: #f9f1e6;
+      padding: 20px;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-text {
+      text-align: left;
+    }
+    .tagline {
+      color: #b26a53;
+      font-size: 0.9rem;
+    }
+    nav a {
+      color: black;
+      font-weight: 600;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .session-section {
+      
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mission {
+      padding: 50px 20px;
+      background: linear-gradient(to right, #b2f0e2, #e2ccf2);
+    }
+    .img-fluid {
+    max-width: 50%;
+    height: auto;
+}
